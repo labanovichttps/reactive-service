@@ -1,0 +1,9 @@
+spring:
+  r2dbc:
+    password: pass
+    username: postgres
+    url: r2dbc:postgresql://localhost:5433/postgres
+  jpa:
+    open-in-view: false
+server:
+  port: 9091

@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: postgres
+    password: pass
+    url: jdbc:postgresql://localhost:5433/postgres
+  jpa:
+    open-in-view: false
+app:
+  user-service:
+    host: http://localhost:9091
+  product-service:
+    host: http://localhost:9090
+server:
+  port: 9092

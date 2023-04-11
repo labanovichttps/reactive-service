@@ -1,0 +1,4 @@
+rootProject.name = 'reactive-service'
+include 'order-service'
+include 'reactive-shop'
+include 'user-service'
